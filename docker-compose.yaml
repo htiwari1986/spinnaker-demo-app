@@ -1,0 +1,8 @@
+version: '3.8'
+services:
+  himanshuapp:
+    image: himanshuapp:v1
+    build: .
+    container_name: himanshu-container
+    ports:
+      - "80:80"
